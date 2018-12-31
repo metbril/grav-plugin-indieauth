@@ -1,8 +1,6 @@
-# Indieauth Plugin
+# IndieAuth Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
-
-The **Indieauth** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Basisc IndieAuth support
+The **IndieAuth** Plugin is for [Grav CMS](http://github.com/getgrav/grav). It provides basic support for IndieAuth by adding an authorization and token endpoint for [IndieAuth.com](https://indieauth.com/) to your site. This will enable you to login to various [IndieWeb](https://indieweb.org/) services, including the [IndieWeb wiki](https://indieweb.org/wikifying#Wikify_yourself).
 
 ## Installation
 
@@ -23,7 +21,7 @@ To install this plugin, just download the zip version of this repository and unz
 You should now have all the plugin files under
 
     /your/site/grav/user/plugins/indieauth
-	
+
 > NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav) and the [Error](https://github.com/getgrav/grav-plugin-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) to operate.
 
 ### Admin Plugin
@@ -44,13 +42,16 @@ Note that if you use the admin plugin, a file with your configuration, and named
 
 ## Usage
 
-**Describe how to use the plugin.**
+There is not much to do. Just configure the plugin (or use the defaults).
+
+To be able to use IndieAuth to login to a site, you should [setup](https://indieauth.com/setup) the rest of your site. Specifically, you should add links to various social profiles. This can be done by adding the information to your template or pages, but also through the [About Me](https://github.com/Birssan/grav-plugin-about-me) or [RelMe](https://github.com/metbril/grav-plugin-relme) plugin.
+
+To test if your configuration is working, go to [IndieLogin](https://indielogin.com/) and try!
 
 ## Credits
 
-**Did you incorporate third-party code? Want to thank somebody?**
+None.
 
 ## To Do
 
-- [ ] Future plans, if any
-
+- [ ] Extend plugin to become an IndieAuth endpoint itself

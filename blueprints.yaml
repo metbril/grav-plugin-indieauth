@@ -1,15 +1,15 @@
 name: Indieauth
 version: 0.1.0
 description: Basic IndieAuth support
-icon: plug
+icon: sign-in
 author:
   name: Robert van Bregt
   email: robert@robertvanbregt.nl
 homepage: https://github.com/metbril/grav-plugin-indieauth
 demo: 
-keywords: grav, plugin, etc
+keywords: grav, plugin, indieweb, indieauth, indielogin, login, auth, authentication
 bugs: https://github.com/metbril/grav-plugin-indieauth/issues
-docs: https://github.com/metbril/grav-plugin-indieauth/blob/develop/README.md
+docs: https://github.com/metbril/grav-plugin-indieauth/blob/master/README.md
 license: MIT
 
 form:
@@ -25,7 +25,3 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
-    text_var:
-      type: text
-      label: PLUGIN_INDIEAUTH.TEXT_VARIABLE
-      help: PLUGIN_INDIEAUTH.TEXT_VARIABLE_HELP
