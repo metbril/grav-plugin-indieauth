@@ -2,4 +2,4 @@
 ##  12/31/2018
 
 1. [](#new)
-    * ChangeLog started...
+    * Initial release
