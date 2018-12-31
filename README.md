@@ -1,6 +1,8 @@
 # IndieAuth Plugin
 
-The **IndieAuth** Plugin is for [Grav CMS](http://github.com/getgrav/grav). It provides basic support for IndieAuth by adding an authorization and token endpoint for [IndieAuth.com](https://indieauth.com/) to your site. This will enable you to login to various [IndieWeb](https://indieweb.org/) services, including the [IndieWeb wiki](https://indieweb.org/wikifying#Wikify_yourself).
+The **IndieAuth** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
+It provides basic support for IndieAuth by adding an authorization and token endpoint for [IndieAuth.com](https://indieauth.com/) to your site. 
+This will enable various [IndieWeb](https://indieweb.org/) services to get access to your site.
 
 ## Installation
 
@@ -54,4 +56,4 @@ None.
 
 ## To Do
 
-- [ ] Extend plugin to become an IndieAuth endpoint itself
+- [ ] Extend plugin to become an IndieAuth provider itself
