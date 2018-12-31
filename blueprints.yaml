@@ -25,3 +25,14 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
+    homepage_only:
+      type: toggle
+      label: PLUGIN_INDIEAUTH.HOMEPAGE_ONLY
+      help: PLUGIN_INDIEAUTH.HOMEPAGE_ONLY_HELP
+      highlight: 0
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool

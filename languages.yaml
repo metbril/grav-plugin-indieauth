@@ -1,4 +1,9 @@
 en:
   PLUGIN_INDIEAUTH:
-    TEXT_VARIABLE: Text Variable
-    TEXT_VARIABLE_HELP: Text to add to the top of a page
+    HOMEPAGE_ONLY: Home page only
+    HOMEPAGE_ONLY_HELP: Only add endpoints to the site homepage
+
+nl:
+  PLUGIN_INDIEAUTH:
+    HOMEPAGE_ONLY: Alleen homepage
+    HOMEPAGE_ONLY_HELP: Voeg endpoints alleen toe aan de homepage

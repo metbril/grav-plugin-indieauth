@@ -38,6 +38,7 @@ Here is the default configuration and an explanation of available options:
 
 ```yaml
 enabled: true
+homepage_only: true
 ```
 
 Note that if you use the admin plugin, a file with your configuration, and named indieauth.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the admin.
