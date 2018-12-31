@@ -62,7 +62,7 @@ class IndieauthPlugin extends Plugin
 
         // hard-code endpoints
         $auth_endpoint = 'https://indieauth.com/auth';
-        $token_endpoint = 'https://token.indieauth.com/token';
+        $token_endpoint = 'https://tokens.indieauth.com/token';
 
         // Check if the current requested URL needs to advertise the endpoint.
         if (!$this->shouldAdvertise($uri, $config)) {
