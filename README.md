@@ -1,3 +1,5 @@
+[![](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/metbril/grav-plugin-indieauth/releases/latest)
+
 # IndieAuth Plugin
 
 The **IndieAuth** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
