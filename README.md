@@ -1,4 +1,4 @@
-[![](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/metbril/grav-plugin-indieauth/releases/latest)
+[![](https://img.shields.io/github/release/metbril/grav-plugin-indieauth.svg)](https://github.com/metbril/grav-plugin-indieauth/releases/latest)
 
 # IndieAuth Plugin
 
